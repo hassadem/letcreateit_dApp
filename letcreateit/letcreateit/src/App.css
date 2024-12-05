@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.Navbar {
+  background-color: #800000; /* Oxblood color */
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.App-header {
+  text-align: center;
+  padding: 2rem;
+}
+
+.TokenForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 2rem auto;
+}
+
+.TokenForm input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.TokenForm button {
+  background-color: #800000;
+  color: white;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #800000; /* Oxblood color */
+  color: white;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 2rem auto;
+}
+
+.Footer {
+  background-color: #800000;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
